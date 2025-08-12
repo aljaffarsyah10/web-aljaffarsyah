@@ -119,6 +119,7 @@ export async function deleteInvoice(id: string) {
   }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function authenticate(
   _prevState: string | undefined,
   _formData: FormData,
