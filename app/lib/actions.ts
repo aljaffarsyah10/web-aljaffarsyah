@@ -119,10 +119,7 @@ export async function deleteInvoice(id: string) {
   }
 }
 
-export async function authenticate(
-  prevState: string | undefined,
-  formData: FormData
-) {
+export async function authenticate() {
   // Authentication disabled - redirect directly to dashboard
   redirect("/dashboard");
 

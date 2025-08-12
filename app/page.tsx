@@ -1,9 +1,4 @@
-import {
-  ArrowRightIcon,
-  ChevronDownIcon,
-  Bars3Icon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { ArrowRightIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
 import {
   CodeBracketIcon,
   RocketLaunchIcon,
