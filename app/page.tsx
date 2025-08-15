@@ -432,7 +432,7 @@ export default function Page() {
               {
                 category: "Cloud & DevOps",
                 skills: [
-                  { name: "AWS/Vercel", level: 87, color: "orange" },
+                  // { name: "AWS/Vercel", level: 87, color: "orange" },
                   { name: "Docker", level: 82, color: "blue" },
                   { name: "Git/GitHub", level: 95, color: "gray" },
                   { name: "CI/CD", level: 80, color: "purple" },
