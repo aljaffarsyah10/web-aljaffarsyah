@@ -1,5 +1,17 @@
 "use client";
-import { ArrowRightIcon } from "@heroicons/react/24/outline";
+import { ArrowRightIcon, UserCircleIcon } from "@heroicons/react/24/outline";
+import {
+  CodeBracketIcon,
+  LightBulbIcon,
+  RocketLaunchIcon,
+  BoltIcon,
+  CheckIcon,
+  CubeTransparentIcon,
+  PlayIcon,
+  StarIcon,
+  EnvelopeIcon,
+  PhoneIcon
+} from "@heroicons/react/24/solid";
 import Link from "next/link";
 import { useTheme } from "@/app/ui/ThemeProvider";
 import { lusitana } from "@/app/ui/fonts";
