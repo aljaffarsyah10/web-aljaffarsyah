@@ -1,28 +1,13 @@
 "use client";
-import { ArrowRightIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
-import {
-  CodeBracketIcon,
-  RocketLaunchIcon,
-  LightBulbIcon,
-  UserCircleIcon,
-  EnvelopeIcon,
-  PhoneIcon,
-  StarIcon,
-  CheckIcon,
-  PlayIcon,
-  SparklesIcon,
-  CubeTransparentIcon,
-  BoltIcon,
-} from "@heroicons/react/24/solid";
+import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import Image from "next/image";
 import { useTheme } from "@/app/ui/ThemeProvider";
 import { lusitana } from "@/app/ui/fonts";
 import Navigation from "@/app/ui/Navigation";
 import HeroSection from "@/app/ui/HeroSection";
 
 export default function Page() {
-  const { theme, setTheme } = useTheme();
+  const { theme } = useTheme();
   return (
     <>
       <main

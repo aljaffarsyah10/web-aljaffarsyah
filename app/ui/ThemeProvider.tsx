@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState } from "react";
 
 const ThemeContext = createContext({
   theme: "dark",
-  setTheme: (_theme: "dark" | "light") => {},
+  setTheme: () => {},
 });
 
 export function useTheme() {
